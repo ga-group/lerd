@@ -1,263 +1,407 @@
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix fibo-fnd-law-jur: <http://www.omg.org/spec/EDMC-FIBO/FND/Law/Jurisdiction/> .
 
-<http://schema.ga-group.nl/jurisdictions#AE> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions>
+    a owl:Ontology ;
+    rdfs:label "Individuals for FIBO's Law/Jurisdiction ontology." ;
+    dcterms:license """The MIT License:  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+      The copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+      THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE
+      AND NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."""^^xsd:string ,
+        "http://opensource.org/licenses/mit-license.php"^^xsd:anyURI ,
+        "http://www.omg.org/techprocess/ab/SpecificationMetadata/MITLicense"^^xsd:anyURI ;
+    owl:imports <http://www.omg.org/spec/EDMC-FIBO/FND/Law/Jurisdiction/> ;
+    owl:versionInfo "0.1" .
+
+<http://schema.ga-group.nl/jurisdictions#AE>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:AE> .
-<http://schema.ga-group.nl/jurisdictions#AI> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#AI>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:AI> .
-<http://schema.ga-group.nl/jurisdictions#AL> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#AL>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:AL> .
-<http://schema.ga-group.nl/jurisdictions#AM> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#AM>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:AM> .
-<http://schema.ga-group.nl/jurisdictions#AR> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#AR>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:AR> .
-<http://schema.ga-group.nl/jurisdictions#AT> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#AT>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:AT> .
-<http://schema.ga-group.nl/jurisdictions#AU> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#AU>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:AU> .
-<http://schema.ga-group.nl/jurisdictions#AX> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#AX>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:AX> .
-<http://schema.ga-group.nl/jurisdictions#BA> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#BA>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:BA> .
-<http://schema.ga-group.nl/jurisdictions#BB> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#BB>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:BB> .
-<http://schema.ga-group.nl/jurisdictions#BE> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#BE>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:BE> .
-<http://schema.ga-group.nl/jurisdictions#BF> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#BF>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:BF> .
-<http://schema.ga-group.nl/jurisdictions#BG> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#BG>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:BG> .
-<http://schema.ga-group.nl/jurisdictions#BH> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#BH>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:BH> .
-<http://schema.ga-group.nl/jurisdictions#BM> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#BM>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:BM> .
-<http://schema.ga-group.nl/jurisdictions#BN> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#BN>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:BN> .
-<http://schema.ga-group.nl/jurisdictions#BR> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#BR>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:BR> .
-<http://schema.ga-group.nl/jurisdictions#BS> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#BS>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:BS> .
-<http://schema.ga-group.nl/jurisdictions#BW> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#BW>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:BW> .
-<http://schema.ga-group.nl/jurisdictions#BZ> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#BZ>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:BZ> .
-<http://schema.ga-group.nl/jurisdictions#CA> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#CA>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:CA> .
-<http://schema.ga-group.nl/jurisdictions#CD> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#CD>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:CD> .
-<http://schema.ga-group.nl/jurisdictions#CH> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#CH>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:CH> .
-<http://schema.ga-group.nl/jurisdictions#CI> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#CI>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:CI> .
-<http://schema.ga-group.nl/jurisdictions#CK> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#CK>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:CK> .
-<http://schema.ga-group.nl/jurisdictions#CL> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#CL>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:CL> .
-<http://schema.ga-group.nl/jurisdictions#CN> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#CN>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:CN> .
-<http://schema.ga-group.nl/jurisdictions#CO> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#CO>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:CO> .
-<http://schema.ga-group.nl/jurisdictions#CW> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#CW>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:CW> .
-<http://schema.ga-group.nl/jurisdictions#CY> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#CY>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:CV> .
-<http://schema.ga-group.nl/jurisdictions#CZ> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#CZ>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:CZ> .
-<http://schema.ga-group.nl/jurisdictions#DE> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#DE>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:DE> .
-<http://schema.ga-group.nl/jurisdictions#DK> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#DK>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:DK> .
-<http://schema.ga-group.nl/jurisdictions#DZ> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#DZ>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:DZ> .
-<http://schema.ga-group.nl/jurisdictions#EE> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#EE>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:EE> .
-<http://schema.ga-group.nl/jurisdictions#EG> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#EG>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:EG> .
-<http://schema.ga-group.nl/jurisdictions#ES> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#ES>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:ES> .
-<http://schema.ga-group.nl/jurisdictions#FI> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#FI>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:FI> .
-<http://schema.ga-group.nl/jurisdictions#FO> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#FO>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:FO> .
-<http://schema.ga-group.nl/jurisdictions#FR> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#FR>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:FR> .
-<http://schema.ga-group.nl/jurisdictions#GA> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#GA>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:GA> .
-<http://schema.ga-group.nl/jurisdictions#GB> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#GB>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:GB> .
-<http://schema.ga-group.nl/jurisdictions#GG> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#GG>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:GG> .
-<http://schema.ga-group.nl/jurisdictions#GH> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#GH>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:GH> .
-<http://schema.ga-group.nl/jurisdictions#GI> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#GI>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:GI> .
-<http://schema.ga-group.nl/jurisdictions#GL> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#GL>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:GL> .
-<http://schema.ga-group.nl/jurisdictions#GN> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#GN>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:GN> .
-<http://schema.ga-group.nl/jurisdictions#GR> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#GR>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:GR> .
-<http://schema.ga-group.nl/jurisdictions#HK> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#HK>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:HK> .
-<http://schema.ga-group.nl/jurisdictions#HR> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#HR>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:HR> .
-<http://schema.ga-group.nl/jurisdictions#HU> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#HU>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:HU> .
-<http://schema.ga-group.nl/jurisdictions#ID> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#ID>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:ID> .
-<http://schema.ga-group.nl/jurisdictions#IE> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#IE>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:IE> .
-<http://schema.ga-group.nl/jurisdictions#IL> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#IL>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:IL> .
-<http://schema.ga-group.nl/jurisdictions#IM> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#IM>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:IM> .
-<http://schema.ga-group.nl/jurisdictions#IN> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#IN>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:IN> .
-<http://schema.ga-group.nl/jurisdictions#IO> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#IO>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:IO> .
-<http://schema.ga-group.nl/jurisdictions#IR> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#IR>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:IR> .
-<http://schema.ga-group.nl/jurisdictions#IS> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#IS>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:IS> .
-<http://schema.ga-group.nl/jurisdictions#IT> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#IT>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:IT> .
-<http://schema.ga-group.nl/jurisdictions#JE> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#JE>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:JE> .
-<http://schema.ga-group.nl/jurisdictions#JP> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#JP>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:JP> .
-<http://schema.ga-group.nl/jurisdictions#KE> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#KE>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:KE> .
-<http://schema.ga-group.nl/jurisdictions#KM> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#KM>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:KM> .
-<http://schema.ga-group.nl/jurisdictions#KN> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#KN>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:KN> .
-<http://schema.ga-group.nl/jurisdictions#KR> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#KR>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:KR> .
-<http://schema.ga-group.nl/jurisdictions#KW> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#KW>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:KW> .
-<http://schema.ga-group.nl/jurisdictions#KY> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#KY>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:KY> .
-<http://schema.ga-group.nl/jurisdictions#KZ> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#KZ>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:KZ> .
-<http://schema.ga-group.nl/jurisdictions#LB> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#LB>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:LB> .
-<http://schema.ga-group.nl/jurisdictions#LI> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#LI>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:LI> .
-<http://schema.ga-group.nl/jurisdictions#LK> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#LK>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:LK> .
-<http://schema.ga-group.nl/jurisdictions#LR> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#LR>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:LR> .
-<http://schema.ga-group.nl/jurisdictions#LT> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#LT>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:LT> .
-<http://schema.ga-group.nl/jurisdictions#LU> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#LU>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:LU> .
-<http://schema.ga-group.nl/jurisdictions#LV> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#LV>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:LV> .
-<http://schema.ga-group.nl/jurisdictions#MA> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#MA>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:MA> .
-<http://schema.ga-group.nl/jurisdictions#MC> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#MC>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:MC> .
-<http://schema.ga-group.nl/jurisdictions#MD> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#MD>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:MD> .
-<http://schema.ga-group.nl/jurisdictions#MH> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#MH>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:MH> .
-<http://schema.ga-group.nl/jurisdictions#MK> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#MK>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:MK> .
-<http://schema.ga-group.nl/jurisdictions#ML> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#ML>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:ML> .
-<http://schema.ga-group.nl/jurisdictions#MT> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#MT>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:MT> .
-<http://schema.ga-group.nl/jurisdictions#MU> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#MU>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:MU> .
-<http://schema.ga-group.nl/jurisdictions#MX> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#MX>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:MX> .
-<http://schema.ga-group.nl/jurisdictions#MY> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#MY>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:MY> .
-<http://schema.ga-group.nl/jurisdictions#MZ> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#MZ>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:MZ> .
-<http://schema.ga-group.nl/jurisdictions#NC> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#NC>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:NC> .
-<http://schema.ga-group.nl/jurisdictions#NG> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#NG>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:NG> .
-<http://schema.ga-group.nl/jurisdictions#NL> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#NL>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:NL> .
-<http://schema.ga-group.nl/jurisdictions#NO> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#NO>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:NO> .
-<http://schema.ga-group.nl/jurisdictions#NZ> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#NZ>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:NZ> .
-<http://schema.ga-group.nl/jurisdictions#OM> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#OM>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:OM> .
-<http://schema.ga-group.nl/jurisdictions#PA> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#PA>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:PA> .
-<http://schema.ga-group.nl/jurisdictions#PE> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#PE>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:PE> .
-<http://schema.ga-group.nl/jurisdictions#PH> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#PH>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:PH> .
-<http://schema.ga-group.nl/jurisdictions#PL> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#PL>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:PL> .
-<http://schema.ga-group.nl/jurisdictions#PR> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#PR>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:PR> .
-<http://schema.ga-group.nl/jurisdictions#PT> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#PT>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:PT> .
-<http://schema.ga-group.nl/jurisdictions#QA> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#QA>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:QA> .
-<http://schema.ga-group.nl/jurisdictions#RO> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#RO>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:RO> .
-<http://schema.ga-group.nl/jurisdictions#RS> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#RS>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:RS> .
-<http://schema.ga-group.nl/jurisdictions#RU> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#RU>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:RU> .
-<http://schema.ga-group.nl/jurisdictions#SA> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#SA>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:SA> .
-<http://schema.ga-group.nl/jurisdictions#SC> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#SC>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:SC> .
-<http://schema.ga-group.nl/jurisdictions#SE> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#SE>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:SE> .
-<http://schema.ga-group.nl/jurisdictions#SG> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#SG>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:SG> .
-<http://schema.ga-group.nl/jurisdictions#SI> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#SI>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:SI> .
-<http://schema.ga-group.nl/jurisdictions#SK> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#SK>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:SK> .
-<http://schema.ga-group.nl/jurisdictions#SL> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#SL>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:SL> .
-<http://schema.ga-group.nl/jurisdictions#SM> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#SM>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:SM> .
-<http://schema.ga-group.nl/jurisdictions#SN> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#SN>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:SN> .
-<http://schema.ga-group.nl/jurisdictions#TC> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#TC>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:TC> .
-<http://schema.ga-group.nl/jurisdictions#TH> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#TH>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:TH> .
-<http://schema.ga-group.nl/jurisdictions#TN> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#TN>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:TN> .
-<http://schema.ga-group.nl/jurisdictions#TR> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#TR>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:TR> .
-<http://schema.ga-group.nl/jurisdictions#TW> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#TW>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:TW> .
-<http://schema.ga-group.nl/jurisdictions#TZ> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#TZ>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:TZ> .
-<http://schema.ga-group.nl/jurisdictions#UA> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#UA>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:UA> .
-<http://schema.ga-group.nl/jurisdictions#UG> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#UG>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:UG> .
-<http://schema.ga-group.nl/jurisdictions#US> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#US>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:US> .
-<http://schema.ga-group.nl/jurisdictions#UY> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#UY>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:UY> .
-<http://schema.ga-group.nl/jurisdictions#VC> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#VC>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:VC> .
-<http://schema.ga-group.nl/jurisdictions#VE> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#VE>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:VE> .
-<http://schema.ga-group.nl/jurisdictions#VG> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#VG>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:VG> .
-<http://schema.ga-group.nl/jurisdictions#VN> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#VN>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:VN> .
-<http://schema.ga-group.nl/jurisdictions#ZA> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#ZA>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:ZA> .
-<http://schema.ga-group.nl/jurisdictions#ZM> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#ZM>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:ZM> .
-<http://schema.ga-group.nl/jurisdictions#ZW> a fibo-fnd-law-jur:Jurisdiction ;
+<http://schema.ga-group.nl/jurisdictions#ZW>
+    a fibo-fnd-law-jur:Jurisdiction , owl:NamedIndividual ;
     fibo-fnd-law-jur:hasReach <http://dbpedia.org/resource/ISO_3166-2:ZW> .
