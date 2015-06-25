@@ -21,6 +21,16 @@
               ), '&#0160;', ' ')"/>
   </fn:function>
 
+  <fn:function name="tt:urlesc">
+    <xsl:param name="str"/>
+    <fn:result
+      select="str:replace(
+              str:replace(
+              str:replace($str, '&lt;', '%3C'
+              ), '&gt;', '%3E'
+              ), ' ', '%20')"/>
+  </fn:function>
+
   <xsl:template match="lei:LEIRecord">
     <xsl:variable name="lei">
       <xsl:text>http://openleis.com/legal_entities/</xsl:text>
@@ -31,11 +41,13 @@
     <xsl:value-of select="$lei"/>
     <xsl:text>&gt;&#0010;</xsl:text>
     <xsl:text>    fibo-fnd-rel-rel:hasLegalName "</xsl:text>
-    <xsl:value-of select="tt:ttlesc(lei:Entity/lei:LegalName)"/>
+    <xsl:value-of select="tt:ttlesc(normalize-space(lei:Entity/lei:LegalName))"/>
     <xsl:text>" ;&#0010;</xsl:text>
-    <xsl:text>    rov:orgType "</xsl:text>
-    <xsl:value-of select="tt:ttlesc(lei:Entity/lei:LegalForm)"/>
-    <xsl:text>" ;&#0010;</xsl:text>
+    <xsl:if test="string-length(lei:Entity/lei:LegalForm) &gt; 0">
+      <xsl:text>    rov:orgType &lt;http://openleis.com/legal_entities/search/legal_form/</xsl:text>
+      <xsl:value-of select="tt:urlesc(lei:Entity/lei:LegalForm)"/>
+      <xsl:text>&gt; ;&#0010;</xsl:text>
+    </xsl:if>
     <xsl:text>    rov:orgStatus "</xsl:text>
     <xsl:value-of select="lei:Entity/lei:EntityStatus"/>
     <xsl:text>" ;&#0010;</xsl:text>
