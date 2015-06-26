@@ -1,4 +1,5 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix fibo-be-corp-corp: <http://www.omg.org/spec/EDMC-FIBO/BE/Corporations/Corporations/> .
 
 <http://openleis.com/legal_entities/search/legal_form/%20FONDO%20DE%20TITULIZACION%20DE%20ACTIVOS> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/(PROPRIETARY)%20LIMITED> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -1401,3 +1402,46 @@
     owl:sameAs <https://ru.wikipedia.org/wiki/Общество_с_ограниченной_ответственностью> .
 <http://openleis.com/legal_entities/search/legal_form/Открытое%20акционерное%20общество> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <https://ru.wikipedia.org/wiki/Публичное_акционерное_общество> .
+
+
+<http://dbpedia.org/resource/Aksjeselskap> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "AS" .
+<http://dbpedia.org/resource/Aktiengesellschaft> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "AG" .
+<http://dbpedia.org/resource/Aktieselskab> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "A/S", "⅍" .
+<http://dbpedia.org/resource/Allmennaksjeselskap> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "ASA", "asa" .
+<http://dbpedia.org/resource/Anpartsselskab> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "ApS" .
+<http://dbpedia.org/resource/Ansvarlig_selskap> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "ANS" .
+<http://dbpedia.org/resource/European_Company_Regulation> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "SE" .
+<http://dbpedia.org/resource/European_economic_interest_grouping> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://dbpedia.org/resource/Gesellschaft_mit_beschränkter_Haftung> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "GmbH" .
+<http://dbpedia.org/resource/Interkommunalt_selskap> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://dbpedia.org/resource/Kommanditselskab> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "K/S" .
+<http://dbpedia.org/resource/Kommandittselskap> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "KS" .
+<http://dbpedia.org/resource/Limited_partnership> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "LP", "L.P." .
+<http://dbpedia.org/resource/Selskap_med_delt_ansvar> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "DA" .
+<http://dbpedia.org/resource/Sociedad_Cooperativa_de_Crédito> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://dbpedia.org/resource/Kommanditgesellschaft> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "KG" .
+<http://de.dbpedia.org/resource/Kommanditgesellschaft_auf_Aktien> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "KGaA" .
+<http://de.dbpedia.org/resource/Offene_Gesellschaft_(Österreich)> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "OG" .
+<http://de.dbpedia.org/resource/Offene_Handelsgesellschaft> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "OHG" .
+<http://es.dbpedia.org/resource/Sociedad_anónima> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "S.A." .
+<http://es.dbpedia.org/resource/Sociedad_de_responsabilidad_limitada> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "S.L." .
+<http://es.dbpedia.org/resource/Sociedad_limitada_nueva_empresa> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "S.L.N.E." .
