@@ -1007,7 +1007,8 @@
     owl:sameAs <http://es.dbpedia.org/resource/Sociedad_de_responsabilidad_limitada> .
 <http://openleis.com/legal_entities/search/legal_form/SOLICIDAD%20LIMITADA> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://es.dbpedia.org/resource/Sociedad_de_responsabilidad_limitada> .
-<http://openleis.com/legal_entities/search/legal_form/SPOLECNOST%20S%20RUCENIM%20OMEZENYM> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/SPOLECNOST%20S%20RUCENIM%20OMEZENYM> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/page/Společnost_s_ručením_omezeným> .
 <http://openleis.com/legal_entities/search/legal_form/SPOLKA%20AKCYJNA> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/SPOLKA%20EUROPEJSKA> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://dbpedia.org/resource/European_Company_Regulation> .
@@ -1215,10 +1216,12 @@
 <http://openleis.com/legal_entities/search/legal_form/Sondervermögen%20nach%20deutschem%20Recht%20(KAGB)> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Sparkasse> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Specialised%20Investment%20Fund%20> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/Spolecnost%20S%20Rucenim%20Omezenym> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/Spolecnost%20S%20Rucenim%20Omezenym> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/page/Společnost_s_ručením_omezeným> .
 <http://openleis.com/legal_entities/search/legal_form/Společenství%20vlastníků%20jednotek> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Společnost%20komanditní> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/Společnost%20s%20ručením%20omezeným> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/Společnost%20s%20ručením%20omezeným> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/page/Společnost_s_ručením_omezeným> .
 <http://openleis.com/legal_entities/search/legal_form/Spolka%20Akcyjna> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Spolka%20Komandytowo-Akcyjna> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Spolka%20Komandytowo> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -1381,7 +1384,8 @@
     owl:sameAs <http://es.dbpedia.org/resource/Sociedad_de_responsabilidad_limitada> .
 <http://openleis.com/legal_entities/search/legal_form/sp.%20z%20o.%20o.> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/splečnost%20s%20ručením%20omezeným> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/společnost%20s%20ručením%20omezeným> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/společnost%20s%20ručením%20omezeným> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/page/Společnost_s_ručením_omezeným> .
 <http://openleis.com/legal_entities/search/legal_form/spoločnosť%20s%20ručením%20obmedzeným> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/srl> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/sub-fund> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -1446,3 +1450,5 @@
     fibo-be-corp-corp:hasLegalFormAbbreviation "S.L." .
 <http://es.dbpedia.org/resource/Sociedad_limitada_nueva_empresa> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "S.L.N.E." .
+<http://dbpedia.org/page/Společnost_s_ručením_omezeným> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "s.r.o.", "spol. s r.o." .
