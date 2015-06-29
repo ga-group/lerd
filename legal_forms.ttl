@@ -100,14 +100,18 @@
 <http://openleis.com/legal_entities/search/legal_form/BECUSA,S.A.> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/BEGRENSET%20ANSVAR> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/BERHAD> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/BESLOTEN%20VENNOOTSCHAP%20MET%20BEPERKTE%20AANSPRAKELIJKHEID> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/BESLOTEN%20VENNOOTSCHAP> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/BESLOTEN%20VENNOOTSCHAP%20MET%20BEPERKTE%20AANSPRAKELIJKHEID> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Besloten_vennootschap> .
+<http://openleis.com/legal_entities/search/legal_form/BESLOTEN%20VENNOOTSCHAP> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Besloten_vennootschap> .
 <http://openleis.com/legal_entities/search/legal_form/BETETI%20TARSASAG> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Bahraini%20Joint-Stock%20Company> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Banco%20Central> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Berhad> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/Besloten%20Vennootschap%20Met%20Beperkte%20Aansprakelijkheid> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/Besloten%20Vennootschap> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/Besloten%20Vennootschap%20Met%20Beperkte%20Aansprakelijkheid> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Besloten_vennootschap> .
+<http://openleis.com/legal_entities/search/legal_form/Besloten%20Vennootschap> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Besloten_vennootschap> .
 <http://openleis.com/legal_entities/search/legal_form/Beteti%20Tarsasag> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Body%20Corporate> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Branch%20(Fióktelep)> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -997,7 +1001,8 @@
 <http://openleis.com/legal_entities/search/legal_form/SOCIETE%20PAR%20ACTIONS%20SIMPLIFIEE%20UNIPERSONNELLE> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/SOCIETE%20PAR%20ACTIONS%20SIMPLIFIEE> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/SOCIETE%20PAR%20ACTIONS> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/SOCIETE%20PRIVEE%20A%20RESPONSABILITE%20LIMITEE%20/%20BESLOTEN%20VENNOOTSCHAP%20MET%20BEPERKTE%20AANSPRAKELIJKHEID> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/SOCIETE%20PRIVEE%20A%20RESPONSABILITE%20LIMITEE%20/%20BESLOTEN%20VENNOOTSCHAP%20MET%20BEPERKTE%20AANSPRAKELIJKHEID> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Besloten_vennootschap> .
 <http://openleis.com/legal_entities/search/legal_form/SOCIETE%20PRIVEE%20A%20RESPONSABILITE%20LIMITEE> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/SOGGETTO%20ESTERO> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/SOLCIEDAD%20LIMITADA> a <http://dbpedia.org/resource/Types_of_business_entity> ;
@@ -1179,7 +1184,8 @@
 <http://openleis.com/legal_entities/search/legal_form/Société%20Européene> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://dbpedia.org/resource/European_Company_Regulation> .
 <http://openleis.com/legal_entities/search/legal_form/Société%20Privee%20à%20responsabilité%20limitée> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/Société%20Privée%20à%20Responsabilite%20Limitée%20/%20Besloten%20Vennootschap%20Met%20Beperkte%20Aansprakelijkheid> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/Société%20Privée%20à%20Responsabilite%20Limitée%20/%20Besloten%20Vennootschap%20Met%20Beperkte%20Aansprakelijkheid> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Besloten_vennootschap> .
 <http://openleis.com/legal_entities/search/legal_form/Société%20anonyme%20libanaise> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Société%20anonyme%20à%20conseil%20d'administration> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Société%20anonyme%20à%20directoire> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -1421,6 +1427,8 @@
     fibo-be-corp-corp:hasLegalFormAbbreviation "ApS" .
 <http://dbpedia.org/resource/Ansvarlig_selskap> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "ANS" .
+<http://dbpedia.org/resource/Besloten_vennootschap> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "bv", "BV", "bvba", "BVBA", "SPRL", "pvpa" .
 <http://dbpedia.org/resource/European_Company_Regulation> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "SE" .
 <http://dbpedia.org/resource/European_economic_interest_grouping> a <http://dbpedia.org/resource/Types_of_business_entity> .
