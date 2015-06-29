@@ -1374,7 +1374,8 @@
 <http://openleis.com/legal_entities/search/legal_form/sociedad%20limitada> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://es.dbpedia.org/resource/Sociedad_de_responsabilidad_limitada> .
 <http://openleis.com/legal_entities/search/legal_form/sociedad%20limitidad%20unipersonal> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/sociedad%20límitada> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/sociedad%20límitada> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://es.dbpedia.org/resource/Sociedad_de_responsabilidad_limitada> .
 <http://openleis.com/legal_entities/search/legal_form/sociedad%20responsabilidad%20limitada%20unipersonal> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/sociedad%20responsabilidad%20limitada> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://es.dbpedia.org/resource/Sociedad_de_responsabilidad_limitada> .
