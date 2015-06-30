@@ -541,13 +541,15 @@
 <http://openleis.com/legal_entities/search/legal_form/Maatschap> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Miteigentumsfonds%20nach%20österreichischem%20Recht%20(InvFG%20/%20AIFMG)> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Mutua> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/N.V.> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/N.V.> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Naamloze_vennootschap> .
 <http://openleis.com/legal_entities/search/legal_form/NAAMLOZE%20VENNOOTSCHAP> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://dbpedia.org/resource/Naamloze_vennootschap> .
 <http://openleis.com/legal_entities/search/legal_form/NINGUNO> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/NO%20APLICA> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/NON-LEGAL%20ENTITY> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/NV> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/NV> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Naamloze_vennootschap> .
 <http://openleis.com/legal_entities/search/legal_form/NYILVANOSAN%20MUKODO%20RESZVENYTARSASAG> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Naamloze%20Vennootschap%20(Handelsregister%20te%20Curacao%20onder%20nummer%2045283)> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://dbpedia.org/resource/Naamloze_vennootschap> .
