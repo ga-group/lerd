@@ -1389,7 +1389,7 @@
 <http://openleis.com/legal_entities/search/legal_form/s.r.o.%20(Limited%20Liability%20Company)> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://dbpedia.org/resource/Společnost_s_ručením_omezeným> .
 <http://openleis.com/legal_entities/search/legal_form/s.r.o.> a <http://dbpedia.org/resource/Types_of_business_entity> ;
-    owl:sameAs <<http://dbpedia.org/resource/Společnost_s_ručením_omezeným>> .
+    owl:sameAs <http://dbpedia.org/resource/Společnost_s_ručením_omezeným> .
 <http://openleis.com/legal_entities/search/legal_form/sa> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://es.dbpedia.org/resource/Sociedad_anónima> .
 <http://openleis.com/legal_entities/search/legal_form/sl> a <http://dbpedia.org/resource/Types_of_business_entity> ;
