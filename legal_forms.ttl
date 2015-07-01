@@ -425,7 +425,8 @@
 <http://openleis.com/legal_entities/search/legal_form/JERSEY%20INTERNATIONAL%20BUSINESS%20COMPANY> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/JOINT%20STOCK%20COMPANY> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/JOINT%20VENTURE%20COMPANY> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/JULKINEN%20OSAKEYHTIO> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/JULKINEN%20OSAKEYHTIO> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Julkinen_osakeyhtiö> .
 <http://openleis.com/legal_entities/search/legal_form/JURIDICA> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Joint%20Stock%20Company> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Joint-stock%20company%20(AB)> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -433,7 +434,8 @@
 <http://openleis.com/legal_entities/search/legal_form/Joint-stock%20company%20(S.A.)> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Joint-stock%20company%20(SA)> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Joint-stock%20company%20(d.d.)> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/Julkinen%20Osakeyhtio> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/Julkinen%20Osakeyhtio> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Julkinen_osakeyhtiö> .
 <http://openleis.com/legal_entities/search/legal_form/Juristische%20Person%20des%20öffentlichen%20Rechts> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/KABUSHIKI%20KAISHA> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/KOMADITNI%20SPOLECNOST> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -593,7 +595,8 @@
 <http://openleis.com/legal_entities/search/legal_form/ORDEN%20RELIGIOSA> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/ORGANISMO%20PÚBLICO> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/ORGANIZACNI%20SLOZKA> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/OSAKEYHTIO> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/OSAKEYHTIO> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Osakeyhtiö> .
 <http://openleis.com/legal_entities/search/legal_form/OSAUHING> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/OSUUSKUNTA> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/OTHER> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -617,7 +620,8 @@
 <http://openleis.com/legal_entities/search/legal_form/Organisme%20professionnel> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Organizační%20složka%20státu> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Organizační%20složka%20zahraniční%20právnické%20osoby> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/Osakeyhtio> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/Osakeyhtio> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Osakeyhtiö> .
 <http://openleis.com/legal_entities/search/legal_form/Osauhing> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Ostatní> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Other> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -1477,6 +1481,8 @@
 <http://dbpedia.org/resource/Gesellschaft_mit_beschränkter_Haftung> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "GmbH" .
 <http://dbpedia.org/resource/Interkommunalt_selskap> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://dbpedia.org/resource/Julkinen_osakeyhtiö> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "Oyj", "Abp" .
 <http://dbpedia.org/resource/Kommanditgesellschaft> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "KG" .
 <http://de.dbpedia.org/resource/Kommanditgesellschaft_auf_Aktien> a <http://dbpedia.org/resource/Types_of_business_entity> ;
@@ -1501,6 +1507,8 @@
     fibo-be-corp-corp:hasLegalFormAbbreviation "OG" .
 <http://de.dbpedia.org/resource/Offene_Handelsgesellschaft> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "OHG" .
+<http://dbpedia.org/resource/Osakeyhtiö> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "Oy", "Ab" .
 <http://dbpedia.org/resource/Public_limited_company> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "plc", "PLC", "CPT"@ga, "CCC"@cy .
 <http://dbpedia.org/resource/Sociedad_Cooperativa_de_Crédito> a <http://dbpedia.org/resource/Types_of_business_entity> .
