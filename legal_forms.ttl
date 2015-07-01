@@ -741,7 +741,7 @@
 <http://openleis.com/legal_entities/search/legal_form/SABIEDRIBA%20AR%20IEROBEZOTU%20ATBILDIBU> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/SAMEIGNARFELAG> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/SARL-SOCIETE%20A%20RESPONSABILITE%20LIMITEE> a <http://dbpedia.org/resource/Types_of_business_entity> ;
-    owl:sameAs <http://dbpedia.org/page/Société_à_responsabilité_limitée> .
+    owl:sameAs <http://dbpedia.org/resource/Société_à_responsabilité_limitée> .
 <http://openleis.com/legal_entities/search/legal_form/SAU> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/SCCV> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/SDAD.%20COOPERATIVA%20DE%20CREDITO> a <http://dbpedia.org/resource/Types_of_business_entity> ;
@@ -1002,7 +1002,7 @@
 <http://openleis.com/legal_entities/search/legal_form/SOCIETATE%20PE%20ACTIUNI> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/SOCIETE%20A%20RESPONSABILITE%20LIMITEE%20ASSOCIE%20UNIQUE> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/SOCIETE%20A%20RESPONSABILITE%20LIMITEE> a <http://dbpedia.org/resource/Types_of_business_entity> ;
-    owl:sameAs <http://dbpedia.org/page/Société_à_responsabilité_limitée> .
+    owl:sameAs <http://dbpedia.org/resource/Société_à_responsabilité_limitée> .
 <http://openleis.com/legal_entities/search/legal_form/SOCIETE%20ANONYME%20/%20NAAMLOZE%20VENNOOTSCHAP> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://dbpedia.org/resource/Naamloze_vennootschap> .
 <http://openleis.com/legal_entities/search/legal_form/SOCIETE%20ANONYME%20EGYPTIENNE%20/%20SHARIKA%20MOSSAHMAH> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -1507,7 +1507,7 @@
     fibo-be-corp-corp:hasLegalFormAbbreviation "S.L." .
 <http://es.dbpedia.org/resource/Sociedad_limitada_nueva_empresa> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "S.L.N.E." .
-<http://dbpedia.org/page/Société_à_responsabilité_limitée> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+<http://dbpedia.org/resource/Société_à_responsabilité_limitée> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "SARL", "SÀRL", "Sàrl", "sàrl", "S.à r.l." .
 <http://dbpedia.org/resource/Společnost_s_ručením_omezeným> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "s.r.o.", "spol. s r.o." .
