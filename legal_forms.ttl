@@ -2,7 +2,8 @@
 @prefix fibo-be-corp-corp: <http://www.omg.org/spec/EDMC-FIBO/BE/Corporations/Corporations/> .
 
 <http://openleis.com/legal_entities/search/legal_form/%20FONDO%20DE%20TITULIZACION%20DE%20ACTIVOS> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/(PROPRIETARY)%20LIMITED> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/(PROPRIETARY)%20LIMITED> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Proprietary_limited_company> .
 <http://openleis.com/legal_entities/search/legal_form/6039/09> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/ADMINISTRACION%20PUBLICA%20FORAL> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/ADMINISTRACION%20PUBLICA> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -638,7 +639,8 @@
 <http://openleis.com/legal_entities/search/legal_form/PRIVATE%20LIMITED> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/PRIVATE%20UNLIMITED%20COMPANY> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/PROFESSIONAL%20CORPORATION> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/PROPRIETARY%20LIMITED> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/PROPRIETARY%20LIMITED> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Proprietary_limited_company> .
 <http://openleis.com/legal_entities/search/legal_form/PROTECTED%20CELL%20COMPANY%20PRIVATE> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/PROTECTED%20CELL%20PUBLIC> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/PUBLIC%20COMPANY%20LIMITED> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -671,8 +673,10 @@
 <http://openleis.com/legal_entities/search/legal_form/Privatstiftung> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Professional%20Corporation> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Professional%20Investor%20Fund> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/Proprietary%20Limited> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/Proprietary%20company%20-%20limited%20by%20shares> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/Proprietary%20Limited> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Proprietary_limited_company> .
+<http://openleis.com/legal_entities/search/legal_form/Proprietary%20company%20-%20limited%20by%20shares> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Proprietary_limited_company> .
 <http://openleis.com/legal_entities/search/legal_form/Public%20Company%20Limited> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Public%20Limited%20Company> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://dbpedia.org/resource/Public_limited_company> .
@@ -1509,6 +1513,8 @@
     fibo-be-corp-corp:hasLegalFormAbbreviation "OHG" .
 <http://dbpedia.org/resource/Osakeyhtiö> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "Oy", "Ab" .
+<http://dbpedia.org/resource/Proprietary_limited_company> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "Pty Ltd", "P/L" .
 <http://dbpedia.org/resource/Public_limited_company> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "plc", "PLC", "CPT"@ga, "CCC"@cy .
 <http://dbpedia.org/resource/Sociedad_Cooperativa_de_Crédito> a <http://dbpedia.org/resource/Types_of_business_entity> .
