@@ -619,7 +619,8 @@
 <http://openleis.com/legal_entities/search/legal_form/PROTECTED%20CELL%20PUBLIC> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/PUBLIC%20COMPANY%20LIMITED> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/PUBLIC%20JOINT%20STOCK%20COMPANY> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/PUBLIC%20LIMITED%20COMPANY> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/PUBLIC%20LIMITED%20COMPANY> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Public_limited_company> .
 <http://openleis.com/legal_entities/search/legal_form/PUBLICHNE%20AKSHIONSNE%20TOVARISTVO> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/PUBLIKA%20AKTIEBOLAG> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Partafelag> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -1347,7 +1348,8 @@
 <http://openleis.com/legal_entities/search/legal_form/otvoreni%20investicijski%20fond%20s%20javnom%20ponudom> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/otvoreni%20investicijski%20fond%20s%20privatnom%20ponudom> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/otvorený%20podielový%20fond> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/plc> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/plc> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Public_limited_company> .
 <http://openleis.com/legal_entities/search/legal_form/podfond%20investičního%20fondu> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/podielový%20fond> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/private%20limited%20company> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -1462,6 +1464,8 @@
     fibo-be-corp-corp:hasLegalFormAbbreviation "OG" .
 <http://de.dbpedia.org/resource/Offene_Handelsgesellschaft> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "OHG" .
+<http://dbpedia.org/resource/Public_limited_company> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "plc", "PLC", "CPT"@ga, "CCC"@cy .
 <http://es.dbpedia.org/resource/Sociedad_anónima> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "S.A." .
 <http://es.dbpedia.org/resource/Sociedad_de_responsabilidad_limitada> a <http://dbpedia.org/resource/Types_of_business_entity> ;
