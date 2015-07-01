@@ -499,15 +499,15 @@
 <http://openleis.com/legal_entities/search/legal_form/LLC> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://dbpedia.org/resource/Limited_liability_company> .
 <http://openleis.com/legal_entities/search/legal_form/LTD> a <http://dbpedia.org/resource/Types_of_business_entity> ;
-    owl:sameAs <http://dbpedia.org/resource/Limited_company> .
+    owl:sameAs <http://dbpedia.org/resource/Private_company_limited_by_shares> .
 <http://openleis.com/legal_entities/search/legal_form/Limitada%20[%20Limited,%20Ltd%20]> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://es.dbpedia.org/resource/Sociedad_de_responsabilidad_limitada> .
 <http://openleis.com/legal_entities/search/legal_form/Limitada> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://es.dbpedia.org/resource/Sociedad_de_responsabilidad_limitada> .
 <http://openleis.com/legal_entities/search/legal_form/Limited%20(Ltd.)> a <http://dbpedia.org/resource/Types_of_business_entity> ;
-    owl:sameAs <http://dbpedia.org/resource/Limited_company> .
+    owl:sameAs <http://dbpedia.org/resource/Private_company_limited_by_shares> .
 <http://openleis.com/legal_entities/search/legal_form/Limited%20Company> a <http://dbpedia.org/resource/Types_of_business_entity> ;
-    owl:sameAs <http://dbpedia.org/resource/Limited_company> .
+    owl:sameAs <http://dbpedia.org/resource/Private_company_limited_by_shares> .
 <http://openleis.com/legal_entities/search/legal_form/Limited%20Liability%20Company%20(Kft.)> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Limited%20Liability%20Company> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://dbpedia.org/resource/Limited_liability_company> .
@@ -522,7 +522,7 @@
 <http://openleis.com/legal_entities/search/legal_form/Limited%20Sirket> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Limited%20by%20Shares> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Limited%20company> a <http://dbpedia.org/resource/Types_of_business_entity> ;
-    owl:sameAs <http://dbpedia.org/resource/Limited_company> .
+    owl:sameAs <http://dbpedia.org/resource/Private_company_limited_by_shares> .
 <http://openleis.com/legal_entities/search/legal_form/Limited%20liability%20company%20(B.V.)> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Limited%20liability%20company%20(GmBH)> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://dbpedia.org/resource/Gesellschaft_mit_beschränkter_Haftung> .
@@ -544,7 +544,7 @@
 <http://openleis.com/legal_entities/search/legal_form/Limited%20partnership%20(KG)> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://de.dbpedia.org/resource/Kommanditgesellschaft> .
 <http://openleis.com/legal_entities/search/legal_form/Limited> a <http://dbpedia.org/resource/Types_of_business_entity> ;
-    owl:sameAs <http://dbpedia.org/resource/Limited_company> .
+    owl:sameAs <http://dbpedia.org/resource/Private_company_limited_by_shares> .
 <http://openleis.com/legal_entities/search/legal_form/Limitee> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/M-46.230> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/MASALE%20PRODUCTES%20SL> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -653,15 +653,15 @@
 <http://openleis.com/legal_entities/search/legal_form/Podílový%20fond> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Privata%20Aktiebolag> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Private%20Limited%20Company> a <http://dbpedia.org/resource/Types_of_business_entity> ;
-    owl:sameAs <http://dbpedia.org/resource/Limited_company> .
+    owl:sameAs <http://dbpedia.org/resource/Private_company_limited_by_shares> .
 <http://openleis.com/legal_entities/search/legal_form/Private%20Limited> a <http://dbpedia.org/resource/Types_of_business_entity> ;
-    owl:sameAs <http://dbpedia.org/resource/Limited_company> .
+    owl:sameAs <http://dbpedia.org/resource/Private_company_limited_by_shares> .
 <http://openleis.com/legal_entities/search/legal_form/Private%20Unlimited%20Company%20> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Private%20Unlimited%20Company> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Private%20company%20limited%20by%20guarantee> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Private%20company%20limited%20by%20shares%20(Zrt.)> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Private%20company%20limited%20by%20shares> a <http://dbpedia.org/resource/Types_of_business_entity> ;
-    owl:sameAs <http://dbpedia.org/resource/Limited_company> .
+    owl:sameAs <http://dbpedia.org/resource/Private_company_limited_by_shares> .
 <http://openleis.com/legal_entities/search/legal_form/Privatstiftung> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Professional%20Corporation> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Professional%20Investor%20Fund> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -1361,7 +1361,7 @@
 <http://openleis.com/legal_entities/search/legal_form/limited%20partnership> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://dbpedia.org/resource/Limited_partnership> .
 <http://openleis.com/legal_entities/search/legal_form/limited> a <http://dbpedia.org/resource/Types_of_business_entity> ;
-    owl:sameAs <http://dbpedia.org/resource/Limited_company> .
+    owl:sameAs <http://dbpedia.org/resource/Private_company_limited_by_shares> .
 <http://openleis.com/legal_entities/search/legal_form/mutual%20fund> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/neurčeno> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/obec%20nebo%20městská%20část%20hlavního%20města%20Prahy> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -1379,7 +1379,7 @@
 <http://openleis.com/legal_entities/search/legal_form/podfond%20investičního%20fondu> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/podielový%20fond> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/private%20limited%20company> a <http://dbpedia.org/resource/Types_of_business_entity> ;
-    owl:sameAs <http://dbpedia.org/resource/Limited_company> .
+    owl:sameAs <http://dbpedia.org/resource/Private_company_limited_by_shares> .
 <http://openleis.com/legal_entities/search/legal_form/právnická%20osoba%20zapísaná%20v%20súlade%20so%20zákonom%20č.%2080/1997%20Z.z.> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/registrierte%20Genossenschaft%20mit%20beschränkter%20Haftung> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/s.%20r.%20o.> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -1482,8 +1482,8 @@
     fibo-be-corp-corp:hasLegalFormAbbreviation "K/S" .
 <http://dbpedia.org/resource/Kommandittselskap> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "KS" .
-<http://dbpedia.org/resource/Limited_company> a <http://dbpedia.org/resource/Types_of_business_entity> ;
-    fibo-be-corp-corp:hasLegalFormAbbreviation "Ltd." .
+<http://dbpedia.org/resource/Private_company_limited_by_shares> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "Ltd", "Ltd.", "Inc.", "Teo."@ga, "Cyf."@cy .
 <http://dbpedia.org/resource/Limited_liability_company> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "LLC" .
 <http://dbpedia.org/resource/Limited_liability_partnership> a <http://dbpedia.org/resource/Types_of_business_entity> ;
