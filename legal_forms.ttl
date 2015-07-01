@@ -485,8 +485,10 @@
 <http://openleis.com/legal_entities/search/legal_form/LIMITED%20COMPANY> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/LIMITED%20LIABILITY%20COMPANY%20(SRL)> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/LIMITED%20LIABILITY%20COMPANY> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/LIMITED%20LIABILITY%20LIMITED%20PARTNERSHIP> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/LIMITED%20LIABILITY%20PARTNERSHIP> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/LIMITED%20LIABILITY%20LIMITED%20PARTNERSHIP> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Limited_liability_partnership> .
+<http://openleis.com/legal_entities/search/legal_form/LIMITED%20LIABILITY%20PARTNERSHIP> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Limited_liability_partnership> .
 <http://openleis.com/legal_entities/search/legal_form/LIMITED%20PARTNERSHIP> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://dbpedia.org/resource/Limited_partnership> .
 <http://openleis.com/legal_entities/search/legal_form/LIMITED%20SIRKET> a <http://dbpedia.org/resource/Types_of_business_entity> ;
@@ -503,9 +505,12 @@
 <http://openleis.com/legal_entities/search/legal_form/Limited%20Company> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Limited%20Liability%20Company%20(Kft.)> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Limited%20Liability%20Company> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/Limited%20Liability%20Limited%20Partnership> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/Limited%20Liability%20Partnership%20LLP%20(Companies%20Registration%20Office%20Cardiff%20onder%20nummer%20OC339304)> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/Limited%20Liability%20Partnership> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/Limited%20Liability%20Limited%20Partnership> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Limited_liability_partnership> .
+<http://openleis.com/legal_entities/search/legal_form/Limited%20Liability%20Partnership%20LLP%20(Companies%20Registration%20Office%20Cardiff%20onder%20nummer%20OC339304)> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Limited_liability_partnership> .
+<http://openleis.com/legal_entities/search/legal_form/Limited%20Liability%20Partnership> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Limited_liability_partnership> .
 <http://openleis.com/legal_entities/search/legal_form/Limited%20Partnership> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://dbpedia.org/resource/Limited_partnership> .
 <http://openleis.com/legal_entities/search/legal_form/Limited%20Sirket> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -523,7 +528,8 @@
 <http://openleis.com/legal_entities/search/legal_form/Limited%20liability%20company%20(s.o.o)> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Limited%20liability%20company> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Limited%20liability%20cooperative%20(z.o.o.)> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/Limited%20liability%20partnership%20(LLP)> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/Limited%20liability%20partnership%20(LLP)> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Limited_liability_partnership> .
 <http://openleis.com/legal_entities/search/legal_form/Limited%20partnership%20(KG)> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://de.dbpedia.org/resource/Kommanditgesellschaft> .
 <http://openleis.com/legal_entities/search/legal_form/Limited> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -1449,6 +1455,8 @@
     fibo-be-corp-corp:hasLegalFormAbbreviation "K/S" .
 <http://dbpedia.org/resource/Kommandittselskap> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "KS" .
+<http://dbpedia.org/resource/Limited_liability_partnership> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "LLP" .
 <http://dbpedia.org/resource/Limited_partnership> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "LP", "L.P." .
 <http://dbpedia.org/resource/Naamloze_vennootschap> a <http://dbpedia.org/resource/Types_of_business_entity> ;
