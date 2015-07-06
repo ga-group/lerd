@@ -37,22 +37,13 @@
       <xsl:value-of select="lei:LEI"/>
     </xsl:variable>
 
-    <xsl:text>&lt;</xsl:text>
-    <xsl:value-of select="$lei"/>
-    <xsl:text>&gt;&#0010;</xsl:text>
-    <xsl:text>    fibo-fnd-rel-rel:hasLegalName "</xsl:text>
-    <xsl:value-of select="tt:ttlesc(normalize-space(lei:Entity/lei:LegalName))"/>
-    <xsl:text>" ;&#0010;</xsl:text>
-    <xsl:text>    rov:orgStatus "</xsl:text>
-    <xsl:value-of select="lei:Entity/lei:EntityStatus"/>
-    <xsl:text>" ;&#0010;</xsl:text>
-    <xsl:if test="lei:Entity/lei:LegalJurisdiction">
-      <xsl:text>    fibo-be-le-lei:isRecognizedIn </xsl:text>
-      <xsl:text>&lt;http://schema.ga-group.nl/jurisdictions#</xsl:text>
-      <xsl:value-of select="lei:Entity/lei:LegalJurisdiction"/>
-      <xsl:text>&gt; ;&#0010;</xsl:text>
+    <xsl:if test="string-length(lei:Entity/lei:LegalForm) &gt; 0">
+      <xsl:text>&lt;</xsl:text>
+      <xsl:value-of select="$lei"/>
+      <xsl:text>&gt; rov:orgType &lt;http://openleis.com/legal_entities/search/legal_form/</xsl:text>
+      <xsl:value-of select="tt:urlesc(lei:Entity/lei:LegalForm)"/>
+      <xsl:text>&gt; .&#0010;</xsl:text>
     </xsl:if>
-    <xsl:text>    a fibo-be-le-lei:LegalEntityIdentifier , fibo-be-le-lei:ContractuallyCapableEntity .&#0010;</xsl:text>
   </xsl:template>
 
   <xsl:template match="text()"/>
