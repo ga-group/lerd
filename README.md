@@ -27,7 +27,9 @@ legal_forms.ttl
 
 Canonicalisation of openleis-derived legal forms (types of organisations).
 This dataset is a hand-crafted mapping between openleis' LegalForm fields
-and wikipedia/dbpedia resources.
+and wikipedia/dbpedia resources.  It is used to turn the rov:orgType fact
+(as obtained by applying `ttlify-gleif-staging-facts.xsl`) into something
+less ambiguous.
 
 
   [1]: https://opencorporates.com/
