@@ -58,7 +58,8 @@
 <http://openleis.com/legal_entities/search/legal_form/ANONIMI%20ETAIRIA> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/ANPARTSSELSKAB> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://dbpedia.org/resource/Anpartsselskab> .
-<http://openleis.com/legal_entities/search/legal_form/ANSTALT%20OFFENTLICHEN%20RECHTS> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/ANSTALT%20OFFENTLICHEN%20RECHTS> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://de.dbpedia.org/resource/Anstalt_des_öffentlichen_Rechts> .
 <http://openleis.com/legal_entities/search/legal_form/ANSVARLIG%20NORSK%20SELSKAP> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://dbpedia.org/resource/Ansvarlig_selskap> .
 <http://openleis.com/legal_entities/search/legal_form/ARUBA%20VRIJGESRELDE%20VENNOOTSCHAP> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -118,7 +119,8 @@
 <http://openleis.com/legal_entities/search/legal_form/Anonimi%20Etairia> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Anpartsselskab> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://dbpedia.org/resource/Anpartsselskab> .
-<http://openleis.com/legal_entities/search/legal_form/Anstalt%20öffentlichen%20Rechts> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/Anstalt%20öffentlichen%20Rechts> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://de.dbpedia.org/resource/Anstalt_des_öffentlichen_Rechts> .
 <http://openleis.com/legal_entities/search/legal_form/Anstalt> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Ansvarlig%20Norsk%20Selskap> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://dbpedia.org/resource/Ansvarlig_selskap> .
@@ -2088,6 +2090,8 @@
     fibo-be-corp-corp:hasLegalFormAbbreviation "ASA", "asa" .
 <http://dbpedia.org/resource/Anpartsselskab> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "ApS" .
+<http://de.dbpedia.org/resource/Anstalt_des_öffentlichen_Rechts> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "AöR" .
 <http://dbpedia.org/resource/Ansvarlig_selskap> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "ANS" .
 <http://dbpedia.org/resource/Besloten_vennootschap> a <http://dbpedia.org/resource/Types_of_business_entity> ;
