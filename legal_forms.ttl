@@ -733,7 +733,8 @@
 <http://openleis.com/legal_entities/search/legal_form/LIMITED%20COMPANY> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/LIMITED%20EXEMPT%20PRIVATE%20COMPANY> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/LIMITED%20LIABILITY%20COMPANY%20(D.O.O.)> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/LIMITED%20LIABILITY%20COMPANY%20(SRL)> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/LIMITED%20LIABILITY%20COMPANY%20(SRL)> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://it.dbpedia.org/resource/Società_a_responsabilità_limitata> .
 <http://openleis.com/legal_entities/search/legal_form/LIMITED%20LIABILITY%20COMPANY%20D.O.O.> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/LIMITED%20LIABILITY%20COMPANY> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://dbpedia.org/resource/Limited_liability_company> .
@@ -804,7 +805,8 @@
 <http://openleis.com/legal_entities/search/legal_form/Limited%20liability%20company%20(Limited)> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Limited%20liability%20company%20(Ltd.)> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Limited%20liability%20company%20(OOD)> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/Limited%20liability%20company%20(SRL)> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/Limited%20liability%20company%20(SRL)> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://it.dbpedia.org/resource/Società_a_responsabilità_limitata> .
 <http://openleis.com/legal_entities/search/legal_form/Limited%20liability%20company%20(Sp.z%20o.o.)> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Limited%20liability%20company%20(d.o.o.)> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Limited%20liability%20company%20(s.o.o)> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -1158,7 +1160,8 @@
     owl:sameAs <http://es.dbpedia.org/resource/Sociedad_de_responsabilidad_limitada> .
 <http://openleis.com/legal_entities/search/legal_form/S.R.O.> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/S.p.A.> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/S.à%20r.l.> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/S.à%20r.l.> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Société_à_responsabilité_limitée> .
 <http://openleis.com/legal_entities/search/legal_form/S0CIEDAD%20ANONIMA> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://es.dbpedia.org/resource/Sociedad_anónima> .
 <http://openleis.com/legal_entities/search/legal_form/SA%20SGIIC> a <http://dbpedia.org/resource/Types_of_business_entity> ;
@@ -1357,7 +1360,8 @@
     owl:sameAs <http://es.dbpedia.org/resource/Sociedad_de_responsabilidad_limitada> .
 <http://openleis.com/legal_entities/search/legal_form/SOCIEDAD%20DE%20RIESGO%20LIMITADO> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/SOCIEDAD%20DE%20VALORES> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/SOCIEDAD%20EN%20COMANDITA%20POR%20ACCIONES> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/SOCIEDAD%20EN%20COMANDITA%20POR%20ACCIONES> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://es.dbpedia.org/resource/Sociedad_en_comandita> .
 <http://openleis.com/legal_entities/search/legal_form/SOCIEDAD%20GESTORAS%20DE%20INSTITUCIONES%20DE%20INVERSION%20COLLECTIVA> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/SOCIEDAD%20INVERSIÓN%20COLECTIVA> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/SOCIEDAD%20LIMITAD> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -1402,7 +1406,8 @@
     owl:sameAs <http://es.dbpedia.org/resource/Sociedad_anónima> .
 <http://openleis.com/legal_entities/search/legal_form/SOCIEDADE%20ANÓNIMA> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://es.dbpedia.org/resource/Sociedad_anónima> .
-<http://openleis.com/legal_entities/search/legal_form/SOCIEDADE%20EM%20COMANDITA%20POR%20ACOES> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/SOCIEDADE%20EM%20COMANDITA%20POR%20ACOES> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://es.dbpedia.org/resource/Sociedad_en_comandita> .
 <http://openleis.com/legal_entities/search/legal_form/SOCIEDADE%20GESTORA%20DE%20PARTICIPACOES%20SOCIAIS> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/SOCIEDADE%20LIMITADA> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://es.dbpedia.org/resource/Sociedad_de_responsabilidad_limitada> .
@@ -1419,9 +1424,12 @@
     owl:sameAs <http://es.dbpedia.org/resource/Sociedad_anónima> .
 <http://openleis.com/legal_entities/search/legal_form/SOCIELDAD%20LIMITADA> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://es.dbpedia.org/resource/Sociedad_de_responsabilidad_limitada> .
-<http://openleis.com/legal_entities/search/legal_form/SOCIETA%20A%20RESPONSABILITA%20LIMITATA%20A%20SOCIO%20UNICO> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/SOCIETA%20A%20RESPONSABILITA%20LIMITATA> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/SOCIETA%20ANONIMA> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/SOCIETA%20A%20RESPONSABILITA%20LIMITATA%20A%20SOCIO%20UNICO> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://it.dbpedia.org/resource/Società_a_responsabilità_limitata> .
+<http://openleis.com/legal_entities/search/legal_form/SOCIETA%20A%20RESPONSABILITA%20LIMITATA> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://it.dbpedia.org/resource/Società_a_responsabilità_limitata> .
+<http://openleis.com/legal_entities/search/legal_form/SOCIETA%20ANONIMA> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://it.dbpedia.org/resource/Società_anonima> .
 <http://openleis.com/legal_entities/search/legal_form/SOCIETA%20COOPERATIVA> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/SOCIETA%20COOPERATIVE%20A%20RESPONSABILITA%20LIMITATA> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/SOCIETA%20COOPERATIVE%20PER%20AZIONI> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -1430,10 +1438,14 @@
 <http://openleis.com/legal_entities/search/legal_form/SOCIETA%20IN%20NOME%20COLLETTIVO> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/SOCIETA%20PER%20AZIONI> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/SOCIETA'%20%20PER%20AZIONI%20CON%20SOCIO%20UNICO> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/SOCIETA'%20A%20RESPONSABILITA'%20LIMITATA%20A%20CAPITALE%20RIDOTTO> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/SOCIETA'%20A%20RESPONSABILITA'%20LIMITATA%20CON%20UNICO%20SOCIO> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/SOCIETA'%20A%20RESPONSABILITA'%20LIMITATA%20SEMPLIFICATA> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/SOCIETA'%20A%20RESPONSABILITA'%20LIMITATA> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/SOCIETA'%20A%20RESPONSABILITA'%20LIMITATA%20A%20CAPITALE%20RIDOTTO> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://it.dbpedia.org/resource/Società_a_responsabilità_limitata> .
+<http://openleis.com/legal_entities/search/legal_form/SOCIETA'%20A%20RESPONSABILITA'%20LIMITATA%20CON%20UNICO%20SOCIO> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://it.dbpedia.org/resource/Società_a_responsabilità_limitata> .
+<http://openleis.com/legal_entities/search/legal_form/SOCIETA'%20A%20RESPONSABILITA'%20LIMITATA%20SEMPLIFICATA> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://it.dbpedia.org/resource/Società_a_responsabilità_limitata> .
+<http://openleis.com/legal_entities/search/legal_form/SOCIETA'%20A%20RESPONSABILITA'%20LIMITATA> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://it.dbpedia.org/resource/Società_a_responsabilità_limitata> .
 <http://openleis.com/legal_entities/search/legal_form/SOCIETA'%20CONSORTILE%20A%20RESPONSABILITA'%20LIMITATA> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/SOCIETA'%20CONSORTILE%20COOPERATIVA%20A%20RESPONSABILITA'%20LIMITATA> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/SOCIETA'%20CONSORTILE%20PER%20AZIONI> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -1546,7 +1558,8 @@
 <http://openleis.com/legal_entities/search/legal_form/SPOŘITELNÍ%20DRUŽSTVO> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/SPV%20LIMITED> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/SPÓŁKA%20Z%20OGRANICZONĄ%20ODPOWIEDZIALNOŚCIĄ> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/SRL> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/SRL> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://it.dbpedia.org/resource/Società_a_responsabilità_limitata> .
 <http://openleis.com/legal_entities/search/legal_form/STATED%20OWNED> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/STATLIG%20MYNDIGHET> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/STATSFORETAK> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -1636,7 +1649,8 @@
     owl:sameAs <http://es.dbpedia.org/resource/Sociedad_anónima> .
 <http://openleis.com/legal_entities/search/legal_form/Sociedad%20Civil%20> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Sociedad%20Civil> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/Sociedad%20Comanditaria> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/Sociedad%20Comanditaria> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://es.dbpedia.org/resource/Sociedad_en_comandita> .
 <http://openleis.com/legal_entities/search/legal_form/Sociedad%20Cooperativa%20Andaluza%20de%20Primer%20Grado> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Sociedad%20Cooperativa%20de%20Crédito> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Sociedad%20Cooperativa> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -1646,14 +1660,18 @@
 <http://openleis.com/legal_entities/search/legal_form/Sociedad%20LImitada> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://es.dbpedia.org/resource/Sociedad_de_responsabilidad_limitada> .
 <http://openleis.com/legal_entities/search/legal_form/Sociedad%20Limiada%20Unipersonal> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/Sociedad%20Liminitada> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/Sociedad%20Limintada> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/Sociedad%20Liminitada> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://es.dbpedia.org/resource/Sociedad_de_responsabilidad_limitada> .
+<http://openleis.com/legal_entities/search/legal_form/Sociedad%20Limintada> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://es.dbpedia.org/resource/Sociedad_de_responsabilidad_limitada> .
 <http://openleis.com/legal_entities/search/legal_form/Sociedad%20Limitada%20> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://es.dbpedia.org/resource/Sociedad_de_responsabilidad_limitada> .
-<http://openleis.com/legal_entities/search/legal_form/Sociedad%20Limitada%20Laboral> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/Sociedad%20Limitada%20Laboral> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://es.dbpedia.org/resource/Sociedad_de_responsabilidad_limitada> .
 <http://openleis.com/legal_entities/search/legal_form/Sociedad%20Limitada%20Nueva%20Empresa> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://es.dbpedia.org/resource/Sociedad_limitada_nueva_empresa> .
-<http://openleis.com/legal_entities/search/legal_form/Sociedad%20Limitada%20Profesional> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/Sociedad%20Limitada%20Profesional> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://es.dbpedia.org/resource/Sociedad_de_responsabilidad_limitada> .
 <http://openleis.com/legal_entities/search/legal_form/Sociedad%20Limitada%20Unipersonal%20(SLU)%20> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Sociedad%20Limitada%20Unipersonal%20(SLU)> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Sociedad%20Limitada%20Unipersonal%20> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -1674,8 +1692,10 @@
 <http://openleis.com/legal_entities/search/legal_form/Sociedad%20anónima%20unipersonal> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Sociedad%20anónima> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://es.dbpedia.org/resource/Sociedad_anónima> .
-<http://openleis.com/legal_entities/search/legal_form/Sociedad%20con%20Responsabilidad%20Limitada> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/Sociedad%20de%20Garantía%20Recíproca> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/Sociedad%20con%20Responsabilidad%20Limitada> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://es.dbpedia.org/resource/Sociedad_de_responsabilidad_limitada> .
+<http://openleis.com/legal_entities/search/legal_form/Sociedad%20de%20Garantía%20Recíproca> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://es.dbpedia.org/resource/Sociedad_de_Garantía_Recíproca> .
 <http://openleis.com/legal_entities/search/legal_form/Sociedad%20de%20Inversion%20de%20Capital%20Variable> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Sociedad%20de%20Inversión%20> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Sociedad%20de%20Inversión%20de%20Capital%20Variable> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -1689,7 +1709,8 @@
     owl:sameAs <http://es.dbpedia.org/resource/Sociedad_de_responsabilidad_limitada> .
 <http://openleis.com/legal_entities/search/legal_form/Sociedad%20de%20responsabilidad%20limitada> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://es.dbpedia.org/resource/Sociedad_de_responsabilidad_limitada> .
-<http://openleis.com/legal_entities/search/legal_form/Sociedad%20en%20Comandita> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/Sociedad%20en%20Comandita> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://es.dbpedia.org/resource/Sociedad_en_comandita> .
 <http://openleis.com/legal_entities/search/legal_form/Sociedad%20en%20Nombre%20Colectivo> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Sociedad%20limitada%20> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://es.dbpedia.org/resource/Sociedad_de_responsabilidad_limitada> .
@@ -1724,8 +1745,10 @@
 <http://openleis.com/legal_entities/search/legal_form/Società%20Cooperativa> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Società%20Cooperative%20a%20Responsabilita%20Limitata> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Società%20Cooperative%20per%20Azioni> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/Società%20a%20responsabilità%20limitata%20a%20socio%20unico> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/Società%20a%20responsabilità%20limitata> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/Società%20a%20responsabilità%20limitata%20a%20socio%20unico> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://it.dbpedia.org/resource/Società_a_responsabilità_limitata> .
+<http://openleis.com/legal_entities/search/legal_form/Società%20a%20responsabilità%20limitata> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://it.dbpedia.org/resource/Società_a_responsabilità_limitata> .
 <http://openleis.com/legal_entities/search/legal_form/Società%20in%20Accomandita%20Semplice> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Società%20in%20Accomandita%20per%20Azioni> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Società%20per%20Azioni%20con%20Socio%20Unico> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -2034,7 +2057,8 @@
 <http://openleis.com/legal_entities/search/legal_form/společnost%20s%20ručením%20omezným> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/spolocnost%20s%20rucenim%20obmedzenym> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/spoločnosť%20s%20ručením%20obmedzeným> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/srl> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/srl> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://it.dbpedia.org/resource/Società_a_responsabilità_limitata> .
 <http://openleis.com/legal_entities/search/legal_form/stock%20company> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/státní%20podnik> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/sub-fund> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -2137,11 +2161,18 @@
 <http://dbpedia.org/resource/Sociedad_Cooperativa_de_Crédito> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://es.dbpedia.org/resource/Sociedad_anónima> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "S.A." .
+<http://es.dbpedia.org/resource/Sociedad_de_Garantía_Recíproca> a <http://dbpedia.org/resource/Types_of_business_entity>> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "SGR" .
 <http://es.dbpedia.org/resource/Sociedad_de_responsabilidad_limitada> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "S.L." .
+<http://es.dbpedia.org/resource/Sociedad_en_comandita> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://es.dbpedia.org/resource/Sociedad_limitada_nueva_empresa> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "S.L.N.E." .
 <http://dbpedia.org/resource/Société_à_responsabilité_limitée> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "SARL", "SÀRL", "Sàrl", "sàrl", "S.à r.l." .
+<http://it.dbpedia.org/resource/Società_a_responsabilità_limitata> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "S.r.l.", "Srl" .
+<http://it.dbpedia.org/resource/Società_anonima> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "S.A.", "SA" .
 <http://dbpedia.org/resource/Společnost_s_ručením_omezeným> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "s.r.o.", "spol. s r.o." .
