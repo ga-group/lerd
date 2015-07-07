@@ -27,8 +27,10 @@
 <http://openleis.com/legal_entities/search/legal_form/AKCIONARSKO%20DRUSTVO%20ZA%20OSIGURANJE> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/AKCIONARSKO%20DRUSTVO> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/AKCIONERSKO%20DRUSTVO> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/AKCIOVA%20SPOLECNOST> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/AKCIOVA%20SPOLOCNOST> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/AKCIOVA%20SPOLECNOST> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Akciová_společnost> .
+<http://openleis.com/legal_entities/search/legal_form/AKCIOVA%20SPOLOCNOST> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Akciová_společnost> .
 <http://openleis.com/legal_entities/search/legal_form/AKSJESELSKAP> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://dbpedia.org/resource/Aksjeselskap> .
 <http://openleis.com/legal_entities/search/legal_form/AKTIEBOLAG> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -95,9 +97,12 @@
 <http://openleis.com/legal_entities/search/legal_form/Akcionarsko%20Drustvo%20Za%20Osiguranje> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Akcionarsko%20Drustvo> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Akcionersko%20Drustvo> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/Akciova%20Spolecnost> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/Akciová%20společnost> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/Akciová%20spoločnosť> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/Akciova%20Spolecnost> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Akciová_společnost> .
+<http://openleis.com/legal_entities/search/legal_form/Akciová%20společnost> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Akciová_společnost> .
+<http://openleis.com/legal_entities/search/legal_form/Akciová%20spoločnosť> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Akciová_společnost> .
 <http://openleis.com/legal_entities/search/legal_form/Aksjeselskap> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://dbpedia.org/resource/Aksjeselskap> .
 <http://openleis.com/legal_entities/search/legal_form/Aktiengesellschaft%20(AG)> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -319,7 +324,8 @@
 <http://openleis.com/legal_entities/search/legal_form/EGYENI%20VALLALKOZO%20-%20PRIVATE%20ENTREPRENEUR> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/EGYESÜLET> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/EINGETRAGENE%20GENOSSENSCHAFT> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/EINGETRAGENER%20KAUFMANN> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/EINGETRAGENER%20KAUFMANN> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://de.dbpedia.org/resource/Eingetragener_Kaufmann>.
 <http://openleis.com/legal_entities/search/legal_form/EINGETRAGENER%20VEREIN> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/EINKAHLUTAFELAG> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/EKONOMISK%20FÖRENING> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -391,11 +397,14 @@
 <http://openleis.com/legal_entities/search/legal_form/Ednolichno%20Druzhestvo%20S%20Ogranichena%20Otgovornost> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Eenmanszaak> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Eingetragene%20Genossenschaft> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/Eingetragener%20Kaufmann%20/%20Kauffrau> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/Eingetragener%20Kaufmann%20/%20Kauffrau> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://de.dbpedia.org/resource/Eingetragener_Kaufmann> .
 <http://openleis.com/legal_entities/search/legal_form/Eingetragener%20Verein> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Einkahlutafelag> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/Einzelkaufmann> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/Einzelunternehmen> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/Einzelkaufmann> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://de.dbpedia.org/resource/Eingetragener_Kaufmann> .
+<http://openleis.com/legal_entities/search/legal_form/Einzelunternehmen> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://de.dbpedia.org/resource/Eingetragener_Kaufmann> .
 <http://openleis.com/legal_entities/search/legal_form/Elektrik%20Piyasası%20Üyesi> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Emeklilik%20Şirketi> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Enskild%20Firma> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -917,11 +926,13 @@
     owl:sameAs <http://dbpedia.org/resource/Osakeyhtiö> .
 <http://openleis.com/legal_entities/search/legal_form/OSAUHING> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/OSUUSKUNTA> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/OTHER%20-%20AKCIOVA%20SPOLOCNOST> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/OTHER%20-%20AKCIOVA%20SPOLOCNOST> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Akciová_společnost> .
 <http://openleis.com/legal_entities/search/legal_form/OTHER%20-%20DRUZSTVO> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/OTHER%20-%20FYZICKA%20OSOBA-%20PODNIKATEL> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/OTHER%20-%20KOMANDITNA%20SPOLOCNOST> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/OTHER%20-%20SPOLOCNOST%20S%20RUCENIM%20OBMEDZENYM> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/OTHER%20-%20SPOLOCNOST%20S%20RUCENIM%20OBMEDZENYM> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Spoločdnosť_s_ručením_obmedzeným> .
 <http://openleis.com/legal_entities/search/legal_form/OTHER%20-%20ZAUJMOVE%20ZDRUZENIE> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/OTHER%20COMPANY%20TYPE> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/OTHER> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -1554,7 +1565,8 @@
 <http://openleis.com/legal_entities/search/legal_form/SPOLKA%20KOMANDYTOWO> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/SPOLKA%20Z%20OGRANICZONA%20ODPOWIEDZIALNOSCIA%20SPOLKA%20KOMANDYTOWO> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/SPOLKA%20Z%20OGRANICZONA%20ODPOWIEDZIALNOSCIA> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/SPOLOCNOST%20S%20RUCENIM%20OBMEDZENYM> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/SPOLOCNOST%20S%20RUCENIM%20OBMEDZENYM> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Spoločdnosť_s_ručením_obmedzeným> .
 <http://openleis.com/legal_entities/search/legal_form/SPOŘITELNÍ%20DRUŽSTVO> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/SPV%20LIMITED> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/SPÓŁKA%20Z%20OGRANICZONĄ%20ODPOWIEDZIALNOŚCIĄ> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -1821,7 +1833,8 @@
 <http://openleis.com/legal_entities/search/legal_form/Spolka%20Komandytowo> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Spolka%20Z%20Ograniczona%20Odpowiedzialnoscia%20Spolka%20Komandytowo> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Spolka%20Z%20Ograniczona%20Odpowiedzialnoscia> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/Spoločnosť%20s%20ručením%20obmedzeným> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/Spoločnosť%20s%20ručením%20obmedzeným> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Spoločdnosť_s_ručením_obmedzeným> .
 <http://openleis.com/legal_entities/search/legal_form/Spółka%20z%20ograniczoną%20odpowiedzialnością,%20(Sociedad%20de%20Responsabilidad%20Limitada)> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Stavovská%20organizace%20-%20profesní%20komora> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Stichting> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -1939,10 +1952,14 @@
 <http://openleis.com/legal_entities/search/legal_form/Zájmové%20sdružení> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/Zártkörűen%20működő%20részvénytársaság> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/a.s.> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/akciová%20společnost> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/akciová%20spoločnosť%20/%20J.S.C.> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/akciová%20spoločnosť> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/as> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/akciová%20společnost> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Akciová_společnost> .
+<http://openleis.com/legal_entities/search/legal_form/akciová%20spoločnosť%20/%20J.S.C.> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Akciová_společnost> .
+<http://openleis.com/legal_entities/search/legal_form/akciová%20spoločnosť> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Akciová_společnost> .
+<http://openleis.com/legal_entities/search/legal_form/as> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Akciová_společnost> .
 <http://openleis.com/legal_entities/search/legal_form/company%20to%20finance,%20trade%20and%20consultancy> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/d.d.> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://openleis.com/legal_entities/search/legal_form/d.o.o.> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -2055,8 +2072,10 @@
 <http://openleis.com/legal_entities/search/legal_form/společnost%20s%20ručením%20omezeným> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://dbpedia.org/resource/Společnost_s_ručením_omezeným> .
 <http://openleis.com/legal_entities/search/legal_form/společnost%20s%20ručením%20omezným> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/spolocnost%20s%20rucenim%20obmedzenym> a <http://dbpedia.org/resource/Types_of_business_entity> .
-<http://openleis.com/legal_entities/search/legal_form/spoločnosť%20s%20ručením%20obmedzeným> a <http://dbpedia.org/resource/Types_of_business_entity> .
+<http://openleis.com/legal_entities/search/legal_form/spolocnost%20s%20rucenim%20obmedzenym> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Spoločdnosť_s_ručením_obmedzeným> .
+<http://openleis.com/legal_entities/search/legal_form/spoločnosť%20s%20ručením%20obmedzeným> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    owl:sameAs <http://dbpedia.org/resource/Spoločdnosť_s_ručením_obmedzeným> .
 <http://openleis.com/legal_entities/search/legal_form/srl> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     owl:sameAs <http://it.dbpedia.org/resource/Società_a_responsabilità_limitata> .
 <http://openleis.com/legal_entities/search/legal_form/stock%20company> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -2104,6 +2123,8 @@
 <http://openleis.com/legal_entities/search/legal_form/相互会社> a <http://dbpedia.org/resource/Types_of_business_entity> .
 
 
+<http://dbpedia.org/resource/Akciová_společnost> a <http://dbpedia.org/resource/Akciová_společnost> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "a.s." .
 <http://dbpedia.org/resource/Aksjeselskap> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "AS" .
 <http://dbpedia.org/resource/Aktiengesellschaft> a <http://dbpedia.org/resource/Types_of_business_entity> ;
@@ -2120,6 +2141,8 @@
     fibo-be-corp-corp:hasLegalFormAbbreviation "ANS" .
 <http://dbpedia.org/resource/Besloten_vennootschap> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "bv", "BV", "bvba", "BVBA", "SPRL", "pvpa" .
+<http://de.dbpedia.org/resource/Eingetragener_Kaufmann> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "e.K.", "e.Kfm.", "e.Kfr." .
 <http://dbpedia.org/resource/European_Company_Regulation> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "SE" .
 <http://dbpedia.org/resource/European_economic_interest_grouping> a <http://dbpedia.org/resource/Types_of_business_entity> .
@@ -2175,4 +2198,6 @@
 <http://it.dbpedia.org/resource/Società_anonima> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "S.A.", "SA" .
 <http://dbpedia.org/resource/Společnost_s_ručením_omezeným> a <http://dbpedia.org/resource/Types_of_business_entity> ;
+    fibo-be-corp-corp:hasLegalFormAbbreviation "s.r.o.", "spol. s r.o." .
+<http://dbpedia.org/resource/Spoločdnosť_s_ručením_obmedzeným> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "s.r.o.", "spol. s r.o." .
