@@ -2184,7 +2184,7 @@
 <http://dbpedia.org/resource/Sociedad_Cooperativa_de_Crédito> a <http://dbpedia.org/resource/Types_of_business_entity> .
 <http://es.dbpedia.org/resource/Sociedad_anónima> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "S.A." .
-<http://es.dbpedia.org/resource/Sociedad_de_Garantía_Recíproca> a <http://dbpedia.org/resource/Types_of_business_entity>> ;
+<http://es.dbpedia.org/resource/Sociedad_de_Garantía_Recíproca> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "SGR" .
 <http://es.dbpedia.org/resource/Sociedad_de_responsabilidad_limitada> a <http://dbpedia.org/resource/Types_of_business_entity> ;
     fibo-be-corp-corp:hasLegalFormAbbreviation "S.L." .
